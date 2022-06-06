@@ -24,3 +24,32 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/*
+
+My code
+
+*/
+
+.images {
+  display: flex;
+  column-gap: 52px;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  row-gap: 32px;
+  align-items: center;
+}
+
+.image-1,.image-2,.image-3,.image-4 {
+  width: 200px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  text-align: center;
+}
